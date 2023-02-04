@@ -135,7 +135,7 @@ void GameDone() {
 
 int main() {
 	system("title Mastermind in C++ by R3Dki");
-	cout << "\x1B[2J\x1B[HHow many Lives do you want?";
+	cout << "\x1B[2J\x1B[HHow many Lives do you want? ";
 	cin >> lives;
 	setLives = lives;
 	FillArrayRandom();
