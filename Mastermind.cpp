@@ -123,6 +123,8 @@ void GameDone() {
 	if (CheckCorrectGuess()) {
 		cout << "\x1B[2J\x1B[H\x1B[92mYou Won!";
 		system("pause");
+		getch();
+		getch();
 		lives = 0;
 		GameOver();
 	} else {
